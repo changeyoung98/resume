@@ -1,52 +1,44 @@
 % !TEX program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
 
 \documentclass{resume}
 %\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
 %\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
-
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{NotoSansSC_external}
+% \usepackage{NotoSerifCJKsc_external}
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{Bin Yuan}
+
+
+\name{陈志扬}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
+  \email{1792266893@qq.com} \textperiodcentered\ 
+  \phone{(+86) 155-8877-0792} \textperiodcentered\}
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{上海交通大学}, 上海}{2016 -- 至今}
+\textit{本科生在读}\ 软件工程, 预计 2020 年 7 月毕业
 
-\section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Shanghai Jiao Tong University (SJTU)}, Shanghai, China}{2013 -- Present}
-\textit{Master student} in Electronics Engineering (EE), expected March 2016
-\datedsubsection{\textbf{Xidian University}, Shaanxi, China}{2009 -- 2013}
-\textit{B.S.} in Electronics Engineering (EE)
+\section{\faUsers\ 项目/科研/交流经历}
+\datedsubsection{\textbf{牛津大学} 英国牛津}{2018年8月}
+\role{暑期交换}{2周}
+此项目为上海交通大学“菁莪本科生暑期海外交流”项目。在全校大二、大三的学生共选出15人，全额资助前往牛津大学进行为期两周的学习交流。
 
-\section{\faUsers\ Experience}
-\datedsubsection{\textbf{FLAG Inc.} California, America}{2012 -- Present}
-\role{Summer Intern}{Manager: xxx}
-Brief introduction: xxx.
+\subsection{\textbf{科研经历}}
+\role{上海交通大学数字艺术实验室}{指导老师 杨旭波教授}
+\begin{参与Magic Toon科研小组}
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+  \item 开发了一个用来分割数据集的工具
 \end{itemize}
+\end{onehalfspacing}
 
-\datedsubsection{\textbf{xxx Projects}}{Jan. 2015 -- Present}
-\role{C, Python, Django, Linux}{Individual Projects, collaborated with xxx}
-Brief introduction: xxx
-\begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
-\end{itemize}
-
-\datedsubsection{\textbf{\LaTeX\ résumé template}}{May. 2015 -- Present}
-\role{\LaTeX, Maintainer}{Individual Projects}
-An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
-\begin{itemize}
-  \item Easy to be further customized or extended
-  \item Full support for unicode characters (e.g. CJK) with \XeLaTeX\
-  \item FontAwesome 4.5.0 support
-\end{itemize}
 
 % Reference Test
 %\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
@@ -55,23 +47,27 @@ An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
 %  \item main contribution
 %\end{itemize}
 
-\section{\faCogs\ Skills}
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: C == Python > C++ > Java
-  \item Platform: Linux
-  \item Development: Web, xxx
+  \item 编程语言: C/C++, Python, Java, JavaScript
+  \item 平台: Linux
 \end{itemize}
 
-\section{\faHeartO\ Honors and Awards}
-\datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
-\datedline{Other awards}{2015}
+\section{\faHeartO\ 获奖情况}
+\datedline{国家励志奖学金}{2017年}
+\datedline{上海交通大学C等奖学金}{2017、2018年}
+\datedline{美国大学生数学建模竞赛H奖}{2018年}
+\datedline{上海交通大学“三好学生”}{2017、2018年}
+\datedline{上海交通大学“五四评优”优秀团员}{2017、2018年}
 
-\section{\faInfo\ Miscellaneous}
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item Blog: http://your.blog.me
-  \item GitHub: https://github.com/username
-  \item Languages: English - Fluent, Mandarin - Native speaker
+  \item GitHub: https://github.com/changeyoung98
+  \item 语言: 英语 较为熟练(六级 629)
 \end{itemize}
+
 
 %% Reference
 %\newpage
