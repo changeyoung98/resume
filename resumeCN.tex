@@ -1,60 +1,52 @@
 % !TEX program = xelatex
-% !TEX encoding = UTF-8 Unicode
-% !Mode:: "TeX:UTF-8"
 
 \documentclass{resume}
-%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
 \usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-% \usepackage{NotoSansSC_external}
-% \usepackage{NotoSerifCJKsc_external}
-% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
-\usepackage{linespacing_fix} % disable extra space before next section
-\usepackage{cite}
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
-
-
 
 \name{陈志扬}
 
 \basicInfo{
   \email{1792266893@qq.com} \textperiodcentered\ 
-  \phone{(+86) 155-8877-0792} \textperiodcentered\}
- 
+  \phone{(+86) 155-8877-0792} \textperiodcentered}
+  
 \section{\faGraduationCap\  教育背景}
 \datedsubsection{\textbf{上海交通大学}, 上海}{2016 -- 至今}
 \textit{本科生在读}\ 软件工程, 预计 2020 年 7 月毕业
 
 \section{\faUsers\ 项目/科研/交流经历}
-
 \subsection{\textbf{项目经历}}
-\begin{个人项目}
+%\begin{个人项目}
 \begin{itemize}
-  \item \textbf{“杀人”飞行器的行动模拟}：计算机图形学大作业，使用C++/OpenCG完成的动画效果，模拟杀人飞行器的行动及决策、搜寻目标、与“反杀人”飞行器的对抗
+  \item \textbf{“杀人”飞行器的行动模拟}：计算机图形学大作业，使用C++/OpenGL完成的动画效果，模拟杀人飞行器的行动及决策、搜寻目标、与“反杀人”飞行器的对抗
   \item \textbf{文件系统}：计算机系统工程大作业，四次迭代完成的yfs文件系统
   \item \textbf{网上书店}：web开发技术大作业，四次迭代完成的可以进行增删改查的网上书店，分为普通用户和管理员两种身份登录
   \item \textbf{基于FPGA的CPU}：数字部件设计课程作业，完成了一个流水线CPU
   \item \textbf{简易数据库}：用C++编写的简易数据库，可以进行增删改查。
 \end{itemize}
-\end{onehalfspacing}
-\begin{团队项目}
+%\end{onehalfspacing}
+
+%\begin{团队项目}
 \begin{itemize}
   \item \textbf{“慧眼识踪”}：暑期软件开发团队项目，完成了一个web应用。该应用可以选择并连接实时摄像头，对画面进行截图、框选目标人物，并对该人物在其余的监控视频中进行检索，找到目标人物。
-  \item \textbf{基于鱼眼摄像头的三维重建}：计算机视觉大作业，根据给定的论文及源代码对重建过程进行优化，得到更好的建模结果。
-\end{onehalfspacing}
-
-\datedsubsection{\textbf{牛津大学} 英国牛津}{2018年8月}
-\role{暑期交换}{2周}
-此项目为上海交通大学“菁莪本科生暑期海外交流”项目。在全校大二、大三的学生共选出15人，全额资助前往牛津大学进行为期两周的学习交流。
+  \item \textbf{基于鱼眼摄像头的三维重建}：计算机视觉团队大作业，根据给定的论文及源代码对重建过程进行优化，得到更好的建模结果。
+  \end{itemize}
+%\end{onehalfspacing}
 
 \subsection{\textbf{科研经历}}
 \role{上海交通大学数字艺术实验室}{指导老师 杨旭波教授}
-\begin{参与Magic Toon科研小组}
+目前参与的项目：Magic Toon科研小组
+%\begin{参与Magic Toon科研小组}
 \begin{itemize}
   \item 开发了一个用来分割数据集的工具
 \end{itemize}
-\end{onehalfspacing}
+%\end{onehalfspacing}
+\datedsubsection{\textbf{暑期交流经历}}{2018年8月}
+\role{牛津大学}{2周}
+此项目为上海交通大学“菁莪本科生暑期海外交流”项目。在全校大二、大三的学生共选出15人，全额资助前往牛津大学进行为期两周的学习交流。
 
 
 % Reference Test
@@ -64,12 +56,11 @@
 %  \item main contribution
 %\end{itemize}
 
-
 \section{\faCogs\ IT 技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C/C++, Python, Java, JavaScript
-  \item 平台: Linux
+  \item 编程语言: C/C++, Python, Java, JavaScript等
+  \item 平台: Windows/Linux
 \end{itemize}
 
 \section{\faHeartO\ 获奖情况}
@@ -85,7 +76,6 @@
   \item GitHub: https://github.com/changeyoung98
   \item 语言: 英语 较为熟练(六级 629)
 \end{itemize}
-
 
 %% Reference
 %\newpage
